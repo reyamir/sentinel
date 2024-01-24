@@ -48,7 +48,7 @@ async function run() {
 
 		feeder.add({
 			url: sources,
-			refresh: 10000,
+			refresh: 300000, // 5 minutes
 			eventName: "event",
 		});
 
