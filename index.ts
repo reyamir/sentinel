@@ -59,7 +59,8 @@ async function run() {
 		});
 
 		feeder.on("event", async (item) => {
-			let content: string = item.summary || item.description || item.title;
+			let content: string =
+				item.summary || item.description || item.title || "";
 			let tag: Tag[] = [];
 
 			// decode html entities
