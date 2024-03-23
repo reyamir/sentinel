@@ -1,24 +1,24 @@
 {
-	"name": "sentinel",
-	"version": "0.0.2",
-	"module": "index.ts",
-	"type": "module",
-	"scripts": {
-		"start": "bun run index.ts",
-		"pkg": "bun build ./index.ts --outdir ./out --target bun"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "1.5.3",
-		"@types/bun": "latest",
-		"@types/sanitize-html": "^2.9.5"
-	},
-	"peerDependencies": {
-		"typescript": "^5.0.0"
-	},
-	"dependencies": {
-		"@rust-nostr/nostr-sdk": "^0.9.0",
-		"html-entities": "^2.4.0",
-		"rss-feed-emitter": "^3.2.3",
-		"rss-parser": "^3.13.0"
-	}
+  "name": "sentinel",
+  "version": "0.0.2",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts",
+    "pkg": "bun build ./index.ts --outdir ./out --target bun"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.5.3",
+    "@types/bun": "latest",
+    "@types/sanitize-html": "^2.9.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@rust-nostr/nostr-sdk": "^0.9.0",
+    "html-entities": "^2.4.0",
+    "rss-feed-emitter": "^3.2.3",
+    "rss-parser": "^3.13.0"
+  }
 }
